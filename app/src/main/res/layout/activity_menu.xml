@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    tools:context=".MainActivity">
+
+  <ScrollView
+      android:layout_width="415dp"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="10dp"
+      android:fillViewport="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="412dp"
+          android:layout_height="91dp"
+          android:background="@drawable/topbox"
+          android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/LogoIto"
+              android:layout_width="144dp"
+              android:layout_height="126dp"
+              android:adjustViewBounds="true"
+              android:scaleType="centerCrop"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.228"
+              app:srcCompat="@drawable/logototoo" />
+
+          <ImageView
+              android:id="@+id/AboutUsUser"
+              android:layout_width="57dp"
+              android:layout_height="58dp"
+              android:contentDescription="@string/about_us"
+              android:scaleType="centerCrop"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.954"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.515"
+              app:srcCompat="@drawable/profile" />
+
+          <Button
+              android:id="@+id/btnAboutUs"
+              android:layout_width="100dp"
+              android:layout_height="55dp"
+              android:background="@android:color/transparent"
+              android:text="@string/about_us"
+              android:textStyle="bold|italic"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.049"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.555" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="13dp"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="30dp"
+            android:text="@string/title_menu"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food1"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:clickable="true"
+              android:contentDescription="@string/churros_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/churros" />
+
+          <TextView
+              android:id="@+id/foodtime1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/churros_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food1" />
+
+          <TextView
+              android:id="@+id/foodname1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/churros"
+              android:textColor="#FF0000"
+              android:textColorHighlight="#000000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food2"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:contentDescription="@string/fresh_tomato_soup_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/tomatosoup" />
+
+          <TextView
+              android:id="@+id/foodtime2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/fresh_tomato_soup_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food2" />
+
+          <TextView
+              android:id="@+id/foodname2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/fresh_tomato_soup"
+              android:textColor="#FF0000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food3"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:contentDescription="@string/baked_potato_soup_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/bakedpotatosoup" />
+
+          <TextView
+              android:id="@+id/foodtime3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/baked_potato_soup_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food3" />
+
+          <TextView
+              android:id="@+id/foodname3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/baked_potato_soup"
+              android:textColor="#FF0000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food4"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:contentDescription="@string/japanese_tamago_egg_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/jptamagoegg" />
+
+          <TextView
+              android:id="@+id/foodtime4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/japanese_tamago_egg_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food4" />
+
+          <TextView
+              android:id="@+id/foodname4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/japanese_tamago_egg"
+              android:textColor="#FF0000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food5"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:contentDescription="@string/chicken_marsala_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/chickenmarsala" />
+
+          <TextView
+              android:id="@+id/foodtime5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/chicken_marsala_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food5" />
+
+          <TextView
+              android:id="@+id/foodname5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/chicken_marsala"
+              android:textColor="#FF0000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="383dp"
+          android:layout_height="224dp"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="13dp"
+          android:layout_marginRight="13dp"
+          android:background="@drawable/boxcorner"
+
+          android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+
+          <ImageButton
+              android:id="@+id/food6"
+              android:layout_width="365dp"
+              android:layout_height="202dp"
+              android:background="@drawable/topbox"
+              android:contentDescription="@string/creamy_garlic_pasta_btn"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.488"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/creamygarlicpasta" />
+
+          <TextView
+              android:id="@+id/foodtime6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="132dp"
+              android:paddingLeft="20dp"
+              android:text="@string/creamy_garlic_pasta_time"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp"
+              android:textStyle="bold|italic"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food6" />
+
+          <TextView
+              android:id="@+id/foodname6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="152dp"
+              android:paddingLeft="20dp"
+              android:shadowColor="#000000"
+              android:shadowDx="1.5"
+              android:shadowDy="1.6"
+              android:shadowRadius="2.0"
+              android:text="@string/creamy_garlic_pasta"
+              android:textColor="#FF0000"
+              android:textSize="26sp"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/food6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      </LinearLayout>
+
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

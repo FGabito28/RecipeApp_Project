@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="title_menu">Recipes</string>
+    <string name="about_us">About Us</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="directions">Directions</string>
+    <string name="txtWelcome">WELCOME</string>
+    <string name="txtSignIn">Sign in with Username</string>
+    <string name="editTxtUsername">Username</string>
+    <string name="editTxtPassword">Password</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="maintext">About Us</string>
+    <string name="mission">By providing easy-to-follow recipes, useful ideas and techniques, and a supportive community, we hope to inspire and empower individuals to prepare great, healthy meals at home.</string>
+    <string name="txtmember1">Francisco Gabito</string>
+    <string name="email1">francisco.gabito@neu.edu.ph</string>
+    <string name="txtmember2">Mark John Ga</string>
+    <string name="email2">mark.ga@neu.edu.ph</string>
+    <string name="txtmember3">Zhane Saladino</string>
+    <string name="email3">zhane.saladino@neu.edu.ph</string>
+    <string name="step1">1</string>
+    <string name="step2">2</string>
+    <string name="step3">3</string>
+    <string name="step4">4</string>
+    <string name="step5">5</string>
+    <string name="step6">6</string>
+    <string name="step7">7</string>
+    <string name="step8">8</string>
+    <string name="step9">9</string>
+    <string name="step10">10</string>
+
+
+    <string name="churros_btn">ChurrosBtn</string>
+    <string name="churros_time">45 mins</string>
+    <string name="churros">Churros</string>
+    <string name="churros_ingredients">"1 cup water \n2 1/2 tablespoons white sugar \n1/2 teaspoon salt \n2 tablespoons vegetable oil \n1 cup all-purpose flour \n2 quarts oil for frying \n1/2 cup white sugar, or to taste \n1 teaspoon ground cinnamon"</string>
+    <string name="churrostep1">Combine water, 2 1/2 tablespoons sugar, salt, and 2 tablespoons vegetable oil in a small saucepan and place over medium heat.Bring to a boil and remove from the heat.tir in flour, stirring until mixture forms a ball.</string>
+    <string name="churrostep2">Heat oil for frying in a deep fryer or deep pot to 375 degrees F (190 degrees C).</string>
+    <string name="churrostep3">Transfer the dough to a sturdy pastry bag fitted with a medium star tip. Carefully pipe a few 5- to 6-inch strips of dough into the hot oil, work in batches so you dont crowd the fryer. Cook until golden, use a spider or slotted spoon to transfer churros to paper towels to drain.</string>
+    <string name="churrostep4">Combine 1/2 cup sugar and cinnamon. Roll drained churros in cinnamon and sugar mixture.</string>
+
+    <string name="fresh_tomato_soup">Fresh Tomato Soup</string>
+    <string name="fresh_tomato_soup_time">30 mins</string>
+    <string name="fresh_tomato_soup_btn">FreshTomatoSoupBtn</string>
+    <string name="freshtomatosoup_ingredients">"4 cups chopped fresh tomatoes \n1 slice onion \n4 cloves garlic \n2 cups chicken broth \n2 tablespoons butter \n2 tablespoons all-purpose flour \n1 teaspoon salt \n2 teaspoons white sugar, or to taste"</string>
+    <string name="freshtomatosoupstep1">Gather all ingredients.</string>
+    <string name="freshtomatosoupstep2">In a stockpot, over medium heat, combine the tomatoes, large slice of onion, garlic cloves, and chicken broth. Bring to a boil, and gently boil for about 20 minutes to blend all of the flavors.</string>
+    <string name="freshtomatosoupstep3">Remove from heat and run the mixture through a food mill into a large bowl, or pan. Discard any stuff left over in the food mill.</string>
+    <string name="freshtomatosoupstep4">In the now empty stockpot, melt the butter over medium heat. Stir in the flour to make a roux, cooking until the roux is a medium brown.</string>
+    <string name="freshtomatosoupstep5">Gradually whisk in a bit of the tomato mixture, so that no lumps form, then stir in the rest.</string>
+    <string name="freshtomatosoupstep6">Season with sugar and salt, and adjust to taste.</string>
+    <string name="freshtomatosoupstep7">Serve hot and enjoy!</string>
+
+    <string name="baked_potato_soup">Baked Potato Soup</string>
+    <string name="baked_potato_soup_time">40 mins</string>
+    <string name="baked_potato_soup_btn">BakedPotatoSoupBtn</string>
+    <string name="bakedpotatosoup_ingredients">"12 slices bacon \n2/3 cup butter or margarine \n2/3 cup all-purpose flour \n7 cups milk \n4 large baked potatoes, peeled and cubed \n4 green onions, chopped \n1 1/4 cups shredded Cheddar cheese \n1 cup sour cream \n1 teaspoon salt \n1 teaspoon ground black pepper"</string>
+    <string name="bakedpotatosoupstep1">Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 8 to 10 minutes. Drain bacon slices on paper towels; crumble and set aside.</string>
+    <string name="bakedpotatosoupstep2">Meanwhile, melt butter in a stockpot or Dutch oven over medium heat. Gradually add flour, whisking until well-combined. Slowly pour in milk, whisking constantly until smooth and thickened.</string>
+    <string name="bakedpotatosoupstep3">Add potatoes and onions and bring to a boil, stirring frequently. Reduce heat and simmer for 10 minutes.</string>
+    <string name="bakedpotatosoupstep4">Stir in crumbled bacon, Cheddar cheese, sour cream, salt, and pepper. Continue cooking and stirring until cheese is melted.</string>
+
+    <string name="japanese_tamago_egg">Japanese Tamago Egg</string>
+    <string name="japanese_tamago_egg_time">25 mins</string>
+    <string name="japanese_tamago_egg_btn">JapaneseTamagoEggBtn</string>
+    <string name="jptamagoegg_ingredients">"4 eggs \n1/4 cup prepared dashi stock \n1 tablespoon white sugar \n1 teaspoon mirin (Japanese sweet wine) \n1/2 teaspoon soy sauce \n1/2 teaspoon vegetable oil, or more as needed"</string>
+    <string name="jptamagoeggstep1">Beat eggs thoroughly in a bowl; whisk in dashi stock, sugar, mirin, and soy sauce until sugar has dissolved.</string>
+    <string name="jptamagoeggstep2">Lightly grease a nonstick skillet and heat over medium heat.</string>
+    <string name="jptamagoeggstep3">Pour a thin layer of egg mixture into the hot pan and swirl to coat the pan. Cook until egg layer is firm on the bottom but still slightly liquid on top, about 1 minute. Then lift up one edge using a spatula and roll up the egg layer. Push omelet roll to one side of the skillet. Oil the skillet again and pour in another thin layer of egg, lifting the first omelet roll up slightly to allow the egg to flow underneath; roll up the first omelet in the new layer of egg and push omelet to the edge of the skillet as before. Repeat the process with the remaining egg mixture, oiling the pan each time if needed.</string>
+    <string name="jptamagoeggstep4">Remove rolled omelet to a serving platter and cut into 6 equal pieces to serve</string>
+
+    <string name="chicken_marsala">Chicken Marsala</string>
+    <string name="chicken_marsala_time">30 mins</string>
+    <string name="chicken_marsala_btn">ChickenMarsalaBtn</string>
+    <string name="chickenmarsala_ingredients">"1/4 cup all-purpose flour for coating \n1/2 teaspoon salt \n1/4 teaspoon ground black pepper \n1/2 teaspoon dried oregano \n4 medium skinless, boneless chicken breast halves - pounded 1/4 inch thick \n4 tablespoons butter \n4 tablespoons olive oil \n1 cup sliced mushrooms \n1/2 cup Marsala wine \n1/2 cup cooking sherry</string>
+    <string name="chickenmarsalastep1">Gather all ingredients.</string>
+    <string name="chickenmarsalastep2">In a shallow dish or bowl, mix together the flour, salt, pepper and oregano.</string>
+    <string name="chickenmarsalastep3">Coat chicken pieces in flour mixture.</string>
+    <string name="chickenmarsalastep4">In a large skillet, melt butter in oil over medium heat. Place chicken in the pan, and lightly brown.</string>
+    <string name="chickenmarsalastep5">Turn over chicken pieces, and add mushrooms. Pour in wine and sherry.</string>
+    <string name="chickenmarsalastep6">Cover skillet; simmer chicken 10 minutes, turning once, until no longer pink and juices run clear.</string>
+    <string name="chickenmarsalastep7">Serve hot and enjoy!</string>
+
+    <string name="creamy_garlic_pasta">Creamy Garlic Pasta</string>
+    <string name="creamy_garlic_pasta_time">30 mins</string>
+    <string name="creamy_garlic_pasta_btn">CreamyGarlicPastaBtn</string>
+    <string name="creamygarlicpasta_ingredients">"2 teaspoons olive oil \n4 garlic cloves, minced \n2 tablespoons butter \n3 cups chicken broth, or more as needed \n1/2 teaspoon ground black pepper \n1/4 teaspoon salt \n1/2 pound spaghetti \n1 cup grated Parmesan cheese \n3/4 cup heavy cream \n1 1/2 tablespoons dried parsley"</string>
+    <string name="creamygarlicpastastep1">Heat olive oil in a medium pan over medium heat. Add garlic and stir until fragrant, 1 to 2 minutes. Add butter and stir constantly until melted. Pour in 3 cups chicken broth; add pepper and salt. Bring to a boil.</string>
+    <string name="creamygarlicpastastep2">Add spaghetti and cook, stirring occasionally, until tender yet firm to the bite, about 12 minutes. Add more chicken broth if pasta starts to stick to the pan.</string>
+    <string name="creamygarlicpastastep3">Add Parmesan cheese, cream, and parsley and mix until thoroughly combined. Serve immediately.</string>
+
+    <string name="honey_glazed_chicken">Honey Glazed Chicken</string>
+    <string name="honey_glazed_chicken_time">20 mins</string>
+    <string name="honey_glazed_chicken_btn">HoneyGlazedChickenBtn</string>
+
+    <string name="spicy_grilled_shrimp">Spicy Grilled Shrimp</string>
+    <string name="spicy_grilled_shrimp_time">20 mins</string>
+    <string name="spicy_grilled_shrimp_btn">SpicyGrilledShrimpBtn</string>
+
+    <string name="sesame_seared_tuna">Sesame Seared Tuna</string>
+    <string name="sesame_seared_tuna_time">11 mins</string>
+    <string name="sesame_seared_tuna_btn">SesameSearedTunaBtn</string>
+
+    <string name="baked_fish_fillets">Baked Fish Fillets</string>
+    <string name="baked_fish_fillets_time">30 mins</string>
+    <string name="baked_fish_fillets_btn">BakedFishFilletsBtn</string>
+    <string name="title_activity_about_us">AboutUs</string>
+</resources>
